@@ -1,0 +1,32 @@
+body {
+    background-position: center;
+    background-size: cover;
+}
+
+.container_externo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0;  
+}
+
+#startModel, #status, #numberOfObjects{
+    font-size: 18px;
+}
+
+canvas {
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+    margin-top: 15vh;
+}
+
+button {
+    margin-top: 10px;
+
+}
